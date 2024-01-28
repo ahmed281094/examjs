@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color: white;
+    
+}
+div ul li , p {
+    color: #818181;
+}
+.toggle-btn {
+   
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+.navBar{
+    background-color:  black;
+    height: 100vh;
+    width: 200px;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: .5s;
+}
+
+.img:hover .layer{
+    top: 0;
+}
+
+.sideNav{
+    z-index: 10;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
